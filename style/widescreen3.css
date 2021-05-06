@@ -1,0 +1,30 @@
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 20px 2px 5px 2px;
+  }
+  #navbar ul li a {
+    color: white;
+    display:block;
+    text-align:center;
+    font-size: 15px;
+    border:none;
+  }
+  #navbar ul li a:hover, #navbar ul li a.current {
+    color:#ff834f;
+    border:none;
+  }
+  #navbar h3 {
+    position: absolute;
+    padding-top: 80px;
+  }
+  header img {
+    padding: 0 0 0 30px;
+    width:100px;
+  }
